@@ -53,16 +53,25 @@ function writePassword() {
 
   }
 
-  for (var i = 0; i < passwordLengthUser; i++) {
-    password = passwordChar[Math.floor(Math.random() * passwordChar.length)]
-  }
-
   function writePassword() {
+      
     var password = generatePassword();
+    console.log(password)
     var passwordText = document.querySelector("#password");
     passwordText.value = password;
   }
+  writePassword();
+
+  function generatePassword () {
+    
+  for (var i = 0; i < passwordLengthUser; i++) {
+    password = passwordChar[Math.floor(Math.random() * passwordChar.length)]
+    return ""
+  }
 }
+  
+}
+
  
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
