@@ -91,7 +91,7 @@ else {
 
 function  writePassword() {
   console.log('generatePassword function');
-  var password = generateBtn();
+  var password = generatePassword();
 
   console.log('password returned from generatePassword as: ' + password);
   var passwordText = document.querySelector("#password");
