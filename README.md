@@ -36,3 +36,6 @@ Characters Available:
 - Uppercase A-Z
 - Numbers 0-9
 - All special characters
+
+<img width="922" alt="Screen Shot 2022-03-20 at 1 41 04 PM" src="https://user-images.githubusercontent.com/95604761/159185182-8d1c0cb2-7207-479c-8adc-899fe8a254af.png">
+
